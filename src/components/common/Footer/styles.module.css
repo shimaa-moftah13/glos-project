@@ -1,0 +1,53 @@
+.footerContainer {
+  margin-top: auto;
+  text-align: center;
+  padding: 60px 0;
+  background-color: #33382876;
+  color: #1e1c1c;
+}
+
+/* Logo styling */
+.footerLogo {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+/* navigation links */
+.footerNav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.footerNav a {
+  font-size: 12px;
+  color: #1e1c1c;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footerNav a:hover {
+  color: #d4d4d4;
+}
+
+/* Social media icons */
+.footerSocial {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footerSocial svg {
+  font-size: 19px;
+  color: #1e1c1c;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.footerSocial svg:hover {
+  color: #818159;
+}

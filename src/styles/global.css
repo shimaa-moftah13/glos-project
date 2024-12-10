@@ -1,0 +1,20 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  overflow-x: hidden;
+  background-color: #eae7e1;
+}
+.notFound {
+  padding-top: 15%;
+  text-align: center;
+}
+
+.notFound h1 {
+  font-size: 130px;
+}
+.notFound p {
+  font-size: 50px;
+}

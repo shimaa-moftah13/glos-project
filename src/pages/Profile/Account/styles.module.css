@@ -1,0 +1,241 @@
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* padding: 20px; */
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.profileCard {
+  background-color: #96968C;
+  width: 400px;
+  padding: 20px;
+  text-align: center;
+}
+
+.profileImage {
+  width: 60%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.name {
+  font-size: 1.3rem;
+  margin-top: -20px;
+}
+
+.location {
+  color: #555;
+  font-size: 1rem;
+}
+
+.userInfo {
+  position: relative;
+  background-color: #F7F5E9;
+  margin-top: 15%;
+  padding: 30px 60px;
+  width: 400px;
+}
+
+.userProfileHeading {
+  position: absolute;
+  top: -28px;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.infoItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.label {
+  /* font-weight: bold; */
+  font-size: 14px;
+  color: #555;
+}
+.label span{
+  font-size: 1rem !important;
+  color: #555;
+  margin-left: 30px !important;
+  margin-block-start: auto;
+}
+.info{
+  font-size: 1.2rem;
+  color: #555;
+  margin-right: 30px;
+
+}
+
+.editButton {
+  background-color: #e66a6a;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.editButton:hover {
+  background-color: #cc5a5a;
+}
+
+
+
+  
+  /* Form input styling */
+  .inputGroup {
+    display: flex;
+    gap: 7px;
+    margin-bottom: 20px;
+  }
+  
+  .inputField{
+    flex: 1;
+  }
+  
+  .inputField .label {
+    display: block;
+    margin: 10px 5px 0 0;
+    font-size: 14px;
+    color: #555;
+    margin-right: 7px;
+  }
+  
+  .inputField .input {
+    width: 100%;
+    padding: 7px 50px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+  }
+  .birthdayInput{
+    width: 100%;
+    padding: 7px 70px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+  }
+  
+  /* .photoUpload{
+    padding: 10px;
+    background-color: #ddd;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  } */
+  
+  /* Radio button styling */
+  .radioButtonsGender {
+    position: relative;
+    display: flex;
+    gap: 10px;
+    /* margin-left: 50px; */
+    
+  }
+  .radioButtonsGender .title {
+    margin-left: 40px;
+  }
+  .radioButtonsGender label {
+    position: relative;
+    padding: 6px 10px 6px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    user-select: none;
+  }
+  .radioButtonsGender label input{
+    appearance: none;
+  }
+  .radioButtonsGender label i{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+  }
+  .radioButtonsGender label i::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #999;
+    transform: rotate(45deg);
+    transition: 0.5s;
+  }
+  .radioButtonsGender label i::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #999;
+    transform: rotate(315deg);
+    transition: 0.5s;
+  }
+  .radioButtonsGender label input:checked ~ i::before{
+    width: 50%;
+    transform: rotate(45deg) translate(-4px, 9px);
+  }
+  .radioButtonsGender label input:checked {
+    background: aquamarine;
+  }
+  .radioButtonsGender label input:checked ~ i::before,
+  .radioButtonsGender label input:checked ~ i::after {
+     background: #333;
+  }
+
+  .radioButtonsGender label span{
+    color: #96968C;
+    transition: 0.5s;
+    margin-right: 7px;
+  }
+  .radioButtonsGender label span::before{
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   border: 1px solid #444;
+   width: 100%;
+   height: 100%;
+   border-radius: 5px;
+   box-sizing: border-box;
+   pointer-events: none;
+   transition: 0.5s;
+  }
+  .radioButtonsGender label:hover span::before{
+    border: 3px solid #444
+  }
+
+  .accountSettings .mainButton{
+    background-color: #96968C;
+    border: 1px solid #ddd;
+    padding: 7px 17px;
+    border-radius: 5px;
+    margin: 2rem;
+    cursor: pointer;
+
+}
+.accountSettings .mainButton:hover{
+    background-color: #96968c8f;
+    border: 1px solid #ddd;
+
+}
+.accountSettings .mainButton:focus{
+  background-color: #96968c8f;
+    border: 1px solid #ddd;
+
+}
+  
+  
+  

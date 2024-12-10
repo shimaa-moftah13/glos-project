@@ -1,0 +1,120 @@
+
+.userTable {
+    width: 90%;
+    border-collapse: collapse;
+    background-color: #f8f9fb;
+    color: #333;
+    font-size: 14px;
+    margin: auto;
+    margin: 40px auto;
+}
+
+.userTable th, .userTable td {
+    padding: 16px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.userTable th {
+    color: #888;
+    font-weight: 500;
+}
+
+.userInfo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.userName {
+    font-weight: bold;
+    color: #333;
+}
+
+.userEmail {
+    color: #666;
+    font-size: 12px;
+}
+
+.roleBadge {
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+
+.admin {
+    background-color: #333;
+}
+
+.standard {
+    background-color: #555;
+}
+
+.dropdownIcon {
+    margin-left: 8px;
+    font-size: 12px;
+}
+
+
+/* CSS */
+.viewButton {
+  align-items: center;
+  background-color: initial;
+  background-image: linear-gradient(#464d55, #25292e);
+  border-radius: 8px;
+  border-width: 0;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .1),0 3px 6px rgba(0, 0, 0, .05);
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  flex-direction: column;
+  font-family: expo-brand-demi,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 13px;
+  height: 30px;
+  justify-content: center;
+  line-height: 1;
+  margin: 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 32px;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all 150ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.viewButton:hover {
+  box-shadow: rgba(0, 1, 0, .2) 0 2px 8px;
+  opacity: .85;
+}
+
+.viewButton:active {
+  outline: 0;
+}
+
+.viewButton:focus {
+  box-shadow: rgba(0, 0, 0, .5) 0 0 0 3px;
+}
+
+@media (max-width: 420px) {
+  .viewButton {
+    height: 48px;
+  }
+}

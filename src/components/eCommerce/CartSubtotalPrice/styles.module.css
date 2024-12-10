@@ -1,0 +1,43 @@
+
+.total {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 70px;
+
+}
+
+.total span {
+  display: block;
+  font-size: 17px;
+  font-weight: bold;
+  align-items: center;
+}
+.button{
+  display: flex;
+  align-items: center;
+}
+
+.checkoutButton{
+  background-color: #96968C;
+  border: 1px solid #ddd;
+  width: 60%;
+  padding: 7px 0;
+  border-radius: 5px;
+  margin: auto;
+  cursor: pointer;
+  margin-bottom: 70px;
+
+}
+
+.checkoutButton:hover{
+  background-color: #96968c8f;
+  border: 1px solid #ddd;
+
+}
+.checkoutButton:focus{
+background-color: #96968c8f;
+  border: 1px solid #ddd;
+
+}

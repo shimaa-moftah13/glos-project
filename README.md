@@ -1,50 +1,31 @@
-# React + TypeScript + Vite
+sd# Jewelry Store Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the (Glos) Jewelry Store website! This project is designed to provide a seamless shopping experience for customers looking to buy jewelry and accessories. With an elegant design and user-friendly interface, the site makes it easy to browse, select, and purchase jewelry online.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Product Listings:** Explore a curated collection of jewelry and accessories.
+- **Cart & Checkout:** Add products to your cart and complete your purchase.
+- **Responsive Design:** The website is fully responsive and looks great on all devices.
+- **Smooth Animations:** Interactive and engaging Lottie animations throughout the site.
+- **Efficient State Management:** Leveraging Redux Toolkit for smooth state handling.
+- **User-Friendly Forms:** Handle product orders and user details seamlessly with React Hook Form.
 
-## Expanding the ESLint configuration
+## Built With
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **React** & **TypeScript** for a modern, scalable front-end.
+- **Material UI** for responsive, accessible components.
+- **Redux Toolkit** for state management.
+- **React Router** for smooth page navigation.
+- **Lottie React** for animations.
+- **Bootstrap** for flexible, mobile-first design.
+- **Axios** for handling API requests.
 
-- Configure the top-level `parserOptions` property like this:
+## Installation
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Clone the repository and install the dependencies:
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+```bash
+git clone <repository_url>
+cd jewelry-store
+npm install
